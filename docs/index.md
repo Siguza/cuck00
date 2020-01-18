@@ -196,7 +196,7 @@ stur q0, [sp, 0x38]                     stp q1, q2, [sp, 0x50]
 So literally all they did was change the `bcopy` to exclude the first element/8 bytes of `reference`.  
 And with that the bug is gone, crumbled to dust.
 
-### Colclusion
+### Conclusion
 
 _\*laughs in disbelief\*_
 
