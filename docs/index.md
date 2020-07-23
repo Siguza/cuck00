@@ -178,7 +178,7 @@ You'd be pretty constrained by the fact that you couldn't reallocate the mach po
 
 ### The fix
 
-This bug was fixed in iOS 13.3.1 beta 2 released on the 14th of January 2020, CVE pending.  
+This bug was fixed in iOS 13.3.1 beta 2 released on the 14th of January 2020, ~~CVE pending~~ CVE-2020-3836, according to the [P0 bug tracker issue][p0].  
 Here's the relevant assembly passage from that version versus 13.3:
 
 ```
@@ -219,3 +219,4 @@ Cheers. :)
   [xnusrc]: https://opensource.apple.com/source/xnu/xnu-4903.241.1/iokit/Kernel/IOUserClient.cpp.auto.html
   [oldxnu]: https://opensource.apple.com/source/xnu/xnu-123.5/
   [img1]: assets/img/1-tweet.png
+  [p0]: https://bugs.chromium.org/p/project-zero/issues/detail?id=1969
