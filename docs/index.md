@@ -209,14 +209,14 @@ This was a good bug, may we find many more like it! :D
 
 Again, a fully functional exploit is [available on GitHub][github].
 
-Feel free to hit me up [on Twitter][twitter] or via mail (`*@*.net` where `*` = `siguza`) if you have feedback, questions, or just want to chat.
+Feel free to hit me up on ~~Twitter~~ [Mastodon][mastodon] or via mail (`*@*.net` where `*` = `siguza`) if you have feedback, questions, or just want to chat.
 
 Cheers. :)
 
   [github]: https://github.com/Siguza/cuck00
-  [twitter]: https://twitter.com/s1guza
+  [mastodon]: https://mastodon.social/@siguza
   [bazad]: https://twitter.com/_bazad
-  [xnusrc]: https://opensource.apple.com/source/xnu/xnu-4903.241.1/iokit/Kernel/IOUserClient.cpp.auto.html
-  [oldxnu]: https://opensource.apple.com/source/xnu/xnu-123.5/
+  [xnusrc]: https://github.com/apple-oss-distributions/xnu/blob/30c9d3cc58fdc88f15751f6b14cbd3c706a6cbc8/iokit/Kernel/IOUserClient.cpp
+  [oldxnu]: https://github.com/apple-oss-distributions/xnu/releases/tag/xnu-123.5
   [img1]: assets/img/1-tweet.png
   [p0]: https://bugs.chromium.org/p/project-zero/issues/detail?id=1969
